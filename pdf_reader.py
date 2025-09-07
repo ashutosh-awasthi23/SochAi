@@ -15,3 +15,4 @@ if __name__ == "__main__":
     extracted_text = extract_text_from_pdf(pdf_file)
     print ("======= Extracted Text Preview =========")
     print(extracted_text[:1000])
+    
