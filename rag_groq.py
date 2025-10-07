@@ -51,7 +51,7 @@ if __name__ == "__main__":
     while True:
         q = input("❓ Your question: ").strip()
         if q.lower() in {"exit", "quit"}:
-            print("Bye! 👋")
+            print("Bye! ")
             break
         ans = answer(q, k=3)
-        print("\n🧠 Answer:", ans, "\n")
+        print("\n Answer:", ans, "\n")
